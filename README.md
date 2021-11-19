@@ -37,4 +37,32 @@ elif select == 4:
                     divide(number_1, number_2))
 else:
     print("Invalid input")
+    
+    
+    NESTED IF- ELSE
+    
+x = 30
+y = 10
+if x >= y:
+    print("x is greater than or equals to y")
+    if x == y:
+        print("x is equals to y")
+    else:
+        print("x is greater than y")
+else:
+    print("x is less than y")
 
+FUNCTIONS WITH 1 , 2 AND 3 PARAMETER
+
+def fun():
+	print("zero parameter")
+fun();
+
+def add(a,b):
+	return a+b
+print(add(1,2))
+
+def add(a,b,c):
+	return a+b+c
+print(add(1,2,3))
+     
